@@ -29,7 +29,7 @@ TWITTER_BEARER_TOKEN = os.getenv('TWITTER_BEARER_TOKEN')
 
 # Load model and vectorizer
 try:
-    model = joblib.load('model.pkl')
+    model = joblib.load('svm_sentiment_model.pkl')
     vectorizer = joblib.load('vectorizer.pkl')
 except Exception as e:
     logger.error(f"Error loading model or vectorizer: {e}")
