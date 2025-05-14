@@ -1,0 +1,5 @@
+# .gitignore
+backend/venv/
+frontend/node_modules/
+*.pkl
+.env
